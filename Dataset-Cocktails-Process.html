@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<link rel="stylesheet" href="//cdn.rawgit.com/milligram/milligram/master/dist/milligram.min.css">
+<style>
+  body {
+    max-width: 60rem;
+    margin: 0 auto;
+  }
+</style>
+
+<body>
+  <h1> What's in a drink? </h1>
+  <p> An attempt to visualize & appreciate the contents of what goes into our drinks.
+
+  <h2>1. Intent</h2>
+  <ul>
+    <li>Purpose</li>
+    <p> To provide knowledge to the audience on the different types of Cocktails and what ingredients comprise them. </p>
+
+    <li>Audience</li>
+      <p> People with a curious mind and intent to make a Cocktail. Aspiring Bartenders, Cocktail making enthusiasts, Youth who like to mix-and-match alcohol and other ingredients. </p>
+
+    <li>Context</li>
+    <p> It takes quite a skill & knowledge on how to make a perfect Cocktail. We're fancied by the names that we'd find on the menu but we'd still seldom be confused about what exactly goes into our drinks? Making Cocktails is analogical to making curries. You might throw in a lot of ingredients but only some would add the value and flavour to it. Having said this, the need to have all the information at one platform giving information on the base of the Cocktails, the kind of glass it is served in and what exactly goes into it and which manner, is important. To understand James Bond preference - 'Shaken, not stirred.'' </p>
+
+    <li> Trigger</li>
+    <p> What triggered me to take this topic is that just like food, even drinks have their layers of ingredients and flavours. While Cocktail enthusiasts might end up settling for just another liqueur brand because they'd be confused about what goes into their cocktail and would be skeptical about taking that risk. Hence, LIIT is the safe option everyone sticks to! Having said that, the scope to explore on the ingredients of Cocktails and the style they're served in by visualizing the data for the general audience inspired me to take this topic. Why always depend on the Bartender or the several results Google would show you? </p>
+
+  <li>Question</li>
+  <p> How can I help educate my audience about the different kinds of Cocktails and further motivate them to explore?</p>
+</ul>
+
+  <h2>2. Data Abstraction</h2>
+  <ul>
+      <li>Raw Data, Source</li>
+      <p> Type of data available - CSV File of 'All Drinks' :
+      <a href="https://www.kaggle.com/ai-first/cocktail-ingredients"> here </a>
+
+      <li>Clean Data</li>
+      <p> Had to remove certain strings such as -<ol>
+        <li>Alcoholic - some non-alcoholic beverages and unknown drinks were mentioned as well</li>
+        <li>Link to images</li>
+        <li>Ingredients - Ingredients in the drinks from 10 to 15 (since they were getting scarce and repetitive)</li> </ol></p>
+
+      <li>Observations, Features, Sample</li>
+      <p><ol><li>A lot of data was extra -  while the dataset spoke only about Cocktails there were some inclusions of non-alocholic beverages like (tea, frappe, cold coffee) which had to scraped out.</li>
+          <li>The data can be used to see which type of liqueur is used the most, which ingredient is used the most etc. While the segregation of different kinds of ingredients was good, the difficulty arrived in their measure levels.</li>
+    </ul>
+
+  <h2>3. Task Abstraction</h2>
+    <ul>
+      <li>What do you want the user to achieve?</li>
+      <p> The knowledge of what goes into your Cocktail and also the choice to explore the different kinds based on preferences.</p>
+    </ul>
+
+  <h2>4. Data & Design Explorations</h2>
+<ul>
+    <li>Sketches</li>
+    <p> Data exploration was done on Tableau further building on to the sketches. There was some difficulty faced with arranging the data and categorizing them while drawing which was made easy with Tableau however.
+    <p> Sketch - 3 is an idea for a visualization (which would be based on Ingredients) that I plan to explore further later.</p>
+
+    <li>Exploration with Data</li>
+    <p> Since the data was quite qualitative in nature, the difficulty in visualizing it was a bit more difficult than expected. However on further studying the nature of categories and prioritizing them keeping in mind Information Hierarchy, the parameters were explored. Type of drink, Type of Glass & Drink names were some important parameters that needed to be incorporated.</p>
+
+    <li>Encoding Mapping  </li>
+    <p>Current explorations on Tableau. Have tried to stick to the basic idea of representation and ease in portraying the information, will further build upon it visually. </p>
+    <li>Aesthetics Choices  </li>
+    <p> Yet to explore. </p>
+  </ul>
+
+<p> Please check Github repository for the explorations. Files enclosed -
+  <ul>
+    <li> Data Set - Cleaned </li>
+    <li>  sketches</li>
+    <li>Tableau - Explorations</li>
+  </ul>
+
+</body>
